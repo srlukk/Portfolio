@@ -3,7 +3,7 @@
     color: #333;
     text-align: center;
     margin-top: 2px;
-}
+} /*o text-header é o texto do portfolio*/
 
 header{
     background-color: #00FFFF;
@@ -11,21 +11,27 @@ header{
     padding: 10px 0;
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
-}
+} /*o header, é a perte de cima da página*/
 
 body{
     background-color:#E0FFFF;
     overflow-x: hidden;
-}
+} /*o body é o fundo da página*/
 
 .links{
     display: flex;
     justify-content: end;
     margin-top: 10px;
     margin-right: 10px;
-}
+} /*o links é a parte dos links, onde tem o home e o about*/
 
 .footer{
     text-align: center;
     margin-top: 50%;
-}
+} /*o footer é a parte de baixo da página*/
+
+#home-icon, #about-icon{
+    width: 20px;
+    height: 20px;
+    color: black;
+} /*o home-icon e o about-icon são os icones do home e do about*/
