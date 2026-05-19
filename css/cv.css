@@ -1,17 +1,40 @@
 body{
-    background-color:#E0FFFF;
+    background-color:rgb(4, 255, 255);
 }
 
-.about-me{
-    font-size: 36px;
+
+.name{
+    font-size: 60px;
     color:#363636;
     text-align: center;
-    margin-top: 20px;
+    margin: 50vh;
 }
 
-header{
-    padding: 20px 0;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px rgba(88, 1, 1, 0.1);
-    background-color: #00FFFF;
+section {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.links{
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    margin-top: -40%;
+} /*o links é a parte dos links, onde tem o home e o about*/
+
+.footer{
+    text-align: center;
+    margin-top: 50%;
+} /*o footer é a parte de baixo da página*/
+
+#home-icon, #about-icon{
+    width: 20px;
+    height: 20px;
+    color: rgb(3, 0, 0);
+} /*o home-icon e o about-icon são os icones do home e do about*/
+.area-title{
+    font-size: 25px;
+    color:#363636;
+    text-align: center;
+    margin-top: -40vh;
 }
